@@ -14,11 +14,9 @@ function getLocaleContent(lang: Language) {
         texts: Object.fromEntries(
             Object.entries(texts.texts).map(([key, value]) => [key, value[lang]])
         ),
-        buttonTexts: {
-            originalPatentLink: texts.buttonTexts.originalPatentLink[lang],
-            showOriginalClaim: texts.buttonTexts.showOriginalClaim[lang],
-            showCounterClaims: texts.buttonTexts.showCounterClaims[lang],
-        },
+        buttonTexts: Object.fromEntries(
+            Object.entries(texts.buttonTexts).map(([key, value]) => [key, value[lang]])
+        ),
         snippets: Object.fromEntries(
             Object.entries(texts.snippets).map(([key, value]) => [key, value[lang]])
         ),

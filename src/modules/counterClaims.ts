@@ -89,24 +89,10 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     },
     {
         id: 6,
-        title: "DE102013001732A1 - Trägermittel zum Ankoppeln von zumindest einer Leit-Stütz-Struktur an einem Lebewesen",
-        author: "Laura Diez, Greta Stehling, Volker Junior",
-        date: "2013",
-        referencesClaims: [4, 5, 6, 7, 8, 9],
-        link: "https://patents.google.com/patent/DE102013001732A1",
-        summary: {
-            en: "Carrier system for attaching guide-support structures to a living being in a stable and anatomically adaptive manner. Features elongated support elements along anatomical surface lines with minimal length change under varying loads. Elements can form mesh-like structures and integrate with elastic textiles.",
-            de: "Trägersystem zur stabilen und anatomisch anpassbaren Befestigung einer Leit-Stütz-Struktur an einem Lebewesen. Verfügt über längliche Stützelemente entlang anatomischer Oberflächenlinien mit minimalen Längenänderungen bei unterschiedlichen Belastungen. Elemente können netzartige Strukturen bilden und sich in elastische Textilien integrieren.",
-            fr: "Système de support pour attacher des structures de guidage-support à un être vivant de manière stable et anatomiquement adaptive. Comprend des éléments de support allongés le long des lignes anatomiques avec changement de longueur minimal sous charges variables. Éléments peuvent former structures de maillage.",
-            es: "Sistema portador para fijar estructuras de guía-soporte a un ser vivo de manera estable y anatómicamente adaptativa. Presenta elementos de soporte alargados a lo largo de líneas anatómicas con cambios mínimos de longitud bajo cargas variables. Elementos pueden formar estructuras tipo malla.",
-            it: "Sistema di supporto per fissare strutture di guida-supporto a un essere vivente in modo stabile e anatomicamente adattivo. Presenta elementi di supporto allungati lungo linee anatomiche con cambiamenti di lunghezza minimi sotto carichi variabili. Elementi possono formare strutture simili a reti.",
-        },
-    },
-    {
-        id: 7,
-        title: "Parametric Design of Custom Foot Orthotic Model - DOI: 10.3722/cadaps.2012.1-11",
+        title: "Parametric Design of Custom Foot Orthotic Model",
         author: "Samuel J. Lochner, Jan P. Huissoon, Sanjeev S. Bedi; University of Waterloo",
-        publication: "Computer Aided Design and Applications, Vol 9, 2012",
+        publication:
+            "Computer Aided Design and Applications, Vol 9, 2012, DOI: 10.3722/cadaps.2012.1-11",
         date: "2012",
         referencesClaims: [1, 2, 3, 6, 7, 8, 9, 11],
         link: "https://www.cad-journal.net/files/vol_9/CAD_9(1)_2012_1-11.pdf",
@@ -119,7 +105,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         },
     },
     {
-        id: 8,
+        id: 7,
         title: "The use of 3D surface scanning for the measurement and assessment of the human foot",
         author: "Scott Telfer, James Woodburn",
         publication: "Journal of Foot and Ankle Research volume 3, Article number: 19 (2010)",
@@ -135,7 +121,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         },
     },
     {
-        id: 9,
+        id: 8,
         title: "A digital approach for design and fabrication by rapid prototyping of orthosis for developmental dysplasia of the hip",
         author: "Munhoz, M. et al.",
         publication: "Res. Biomed. Eng. 32 (1), Jan-Mar 2016",
@@ -151,7 +137,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         },
     },
     {
-        id: 10,
+        id: 9,
         title: "Ankle-Foot Orthosis Made by 3D Printing Technique and Automated Design Software",
         author: "Yong Ho Cha, Keun Ho Lee, Hong Jong Ryu, Il Won Joo, Anna Seo, Dong-Hyeon Kim, Sang Jun Kim",
         publication:
@@ -168,7 +154,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         },
     },
     {
-        id: 11,
+        id: 10,
         title: "A CAD-based Procedure for Designing 3D Printable Arm-Wrist-Hand Cast",
         author: "Francesco Buonamici, Rocco Furferi, Lapo Governi, Simone Lazzeri, Kathleen S. McGreevy, Michaela Servi, Emiliano Talanti, Francesca Uccheddu, Yary Volpe",
         publication: "Computer-Aided Design & Applications, 16(1), 2019",
@@ -184,7 +170,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         },
     },
     {
-        id: 12,
+        id: 11,
         title: "Design and Rapid Manufacturing of a customized foot orthosis: A first methodological study.",
         author: "M Fantini, F De Crescenzio, L Brognara, N Baldini",
         publication: "Advances on Mechanics, Design Engineering and Manufacturing, Springer",
@@ -200,7 +186,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         },
     },
     {
-        id: 13,
+        id: 12,
         title: "Korsettfertigung - aktueller Stand der CAD-Technik",
         author: "F. Hoeltzel",
         publication: "Orthopädie Technik, 2016; 67 (2): 36–38",
@@ -216,7 +202,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         },
     },
     {
-        id: 14,
+        id: 13,
         title: "Potenziale additiver Fertigungsverfahren für die Orthopädie-Technik",
         author: "J. Breuninger, U. Daub, R. Werder, U. Schneider",
         publication: "Orthopädie Technik, 2015; 66 (6): 22–27",
@@ -232,7 +218,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         },
     },
     {
-        id: 15,
+        id: 14,
         title: "Generative Fertigungsverfahren in der Orthopädie-Technik",
         author: "J. Pröbsting, N. Günther",
         publication: "Orthopädie Technik, 2014; 65 (1): 16–19",
@@ -248,7 +234,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         },
     },
     {
-        id: 16,
+        id: 15,
         title: "Digitale Orthetik – Design- und Machbarkeitsstudie zur Potentialanalyse",
         author: "Andreas Mühlenberend",
         publication:
