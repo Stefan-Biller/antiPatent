@@ -1,50 +1,33 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import Divider from "./Divider.vue";
-import language from "../modules/language";
+import { MAX_TITLE_LENGTH } from "../globals";
+import { truncateText } from "../modules/utility";
 
-const { title, summary, originalText } = defineProps<{
-  id: number;
-  title: string;
-  originalText: string;
-  summary: string;
-}>();
+const props = withDefaults(
+    defineProps<{
+        title: string;
+        summary: string;
+        abbreviate?: boolean;
+    }>(),
+    {
+        abbreviate: false,
+    }
+);
 
-const emit = defineEmits<{
-  (e: "showDetails", title: string, text: string): void;
-  (e: "showCounterClaims", id: number): void;
-}>();
-
-const showDetailButtonText = computed(() => {
-  return language.value === "de"
-    ? "Originaltext anzeigen"
-    : "Show original text";
-});
-
-const showCounterClaimsButtonText = computed(() => {
-  return language.value === "de"
-    ? "Gegenansprüche anzeigen"
-    : "Show counter claims";
-});
+const shortTitle = computed(() => truncateText(props.title, MAX_TITLE_LENGTH));
 </script>
 
 <template>
-  <!-- content should be right aligned-->
-  <div class="p-4 text-gray-600">
-    <Divider class="mt-2">
-      {{ title }}
-    </Divider>
+    <div :class="props.abbreviate ? 'text-gray-300' : 'text-gray-800'">
+        <Divider class="mt-2" :title="props.title">
+            {{ shortTitle }}
+        </Divider>
 
-    <p class="pt-2">{{ summary }}</p>
-
-    <!-- one botton left one button right-->
-    <div class="flex justify-between mt-2 text-xs">
-      <button class="" @click="emit('showDetails', title, originalText)">
-        {{ showDetailButtonText }}
-      </button>
-      <button class="" @click="emit('showCounterClaims', id)">
-        {{ showCounterClaimsButtonText }}
-      </button>
+        <!-- content -->
+        <div v-show="!props.abbreviate">
+            <p class="pt-2">{{ summary }}</p>
+            <slot> </slot>
+        </div>
     </div>
-  </div>
 </template>
