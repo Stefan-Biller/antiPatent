@@ -1,5 +1,9 @@
 # Patent Claims Quality Assessment
 
+## PROMPT:
+
+"for each claim of the original patent to be contested in claims.ts evaluate what the level of counterclaim quality (in counterclaim.ts) is 0-5 (5 certain grounds for dismissal, 0 - 0 grounds). Use texts.ts as additional context. Update the quality_assessment.md file accordingly."
+
 ## Methodology
 
 Quality assessment scale for counterclaims against each patent claim:
