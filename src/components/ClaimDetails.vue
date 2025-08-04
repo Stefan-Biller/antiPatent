@@ -19,7 +19,7 @@ const shortTitle = computed(() => truncateText(props.title, MAX_STRLENGTH.title)
 </script>
 
 <template>
-    <div :class="props.abbreviate ? 'text-gray-300' : 'text-black pb-6'">
+    <div :class="props.abbreviate ? 'text-gray-300' : 'text-black pb-4'">
         <Divider class="mt-2 font-medium" :title="props.title">
             {{ shortTitle }}
         </Divider>
