@@ -17,7 +17,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         title: "US6968246 - Method for automated design of orthotic and prosthetic devices",
         author: "Keith Watson, Marvin Fourroux",
         date: "2002",
-        referencesClaims: [1, 2, 3, 4, 5, 10, 12, 13],
+        referencesClaims: [1, 2],
         link: "https://patents.google.com/patent/US6968246B2/",
         summary: {
             de: "Computerbasiertes Verfahren zum 3D-Scannen von Gliedmaßen, algorithmischer Modifikation digitaler Modelle (Volumenreduktion bis 12%), automatischer Erkennung anatomischer Merkmale und Datenübertragung an Fertigungsanlagen für Prothesen/Orthesen.",
@@ -32,7 +32,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         title: "WO2011031971A2 - Process and system for manufacturing a customized orthosis",
         author: "Steven J. Stanhope, Elisa Schrank",
         date: "2010",
-        referencesClaims: [1, 2, 3, 6, 7, 8, 9, 10, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://patents.google.com/patent/WO2011031971A2",
         summary: {
             de: "Patent beschreibt Herstellung maßgeschneiderter Orthesen durch digitale Erfassung anatomischer Landmarken, Generierung eines digitalen Modells und Fertigung mittels computergestützter Fertigung (3D-Druck). Ermöglicht präzise Personalisierung mit Gelenkausrichtung und Steifigkeitsabstimmung.",
@@ -47,7 +47,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         title: "US20090306801A1 - Patient specific ankle-foot orthotic device",
         author: "Mark L. Sivak, Richard G. Ranky, Joseph A. DiPisa, Alyssa Leigh Caddle, Kara Lyn Gilhooly, Lauren Chiara Govoni, Seth John Siva, kMichael Lancia, Paolo Bonato, Constantinos Mavroidis",
         date: "2007",
-        referencesClaims: [1, 2, 3, 6, 7, 9, 10, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://patents.google.com/patent/US20090306801A1",
         summary: {
             de: "Vollständig digitale, computergesteuerte Methode zur Herstellung patientenspezifischer orthopädischer Geräte. Umfasst 3D-Bildgebung zur Erzeugung einer Punktwolke, Manipulation zu einem digitalen Modell mit optionalen eingebetteten Komponenten und Umwandlung in Fertigungsanweisungen für automatisierte Produktion (3D-Druck).",
@@ -62,7 +62,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         title: "US20170216078A1 - 3d printed splint and cast",
         author: "Michael Rivlin, Pedro Beredjiklian, Alexander R. Vaccaro, Michael J. Sileski, Emilia Pollnow, Mary Grace Maggiano, Cynthia Watkins",
         date: "2017",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://patents.google.com/patent/US20170216078A1",
         summary: {
             en: "Discloses a 3D-printed cast or splint made from rigid polymeric materials, consisting of first and second shell portions that conform to a patient’s body part and interlock via integrated engagement mechanisms. Features include customizable venting holes, reinforcement structures, bone stimulation ports, and the potential for embedded symbolic designs or logos. The cast is designed for efficient digital fabrication and ergonomic fit.",
@@ -77,7 +77,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         title: "WO2018170600A1 - Custom foot orthotic and system and method for designing of a custom foot orthotic",
         author: "Steven Miller, Todd MCLEAN, Patrick Connor",
         date: "2018",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://patents.google.com/patent/WO2018170600A1",
         summary: {
             en: "System for designing custom foot orthotics using patient-specific data. Combines 3D foot scanning and plantar pressure mapping to generate a digital orthotic model with variable internal density for target pressure distribution. Model outputs for 3D printing enable personalized and biomechanically optimized devices.",
@@ -94,7 +94,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         publication:
             "Computer Aided Design and Applications, Vol 9, 2012, DOI: 10.3722/cadaps.2012.1-11",
         date: "2012",
-        referencesClaims: [1, 2, 3, 6, 7, 8, 9, 11],
+        referencesClaims: [1, 2],
         link: "https://www.cad-journal.net/files/vol_9/CAD_9(1)_2012_1-11.pdf",
         summary: {
             en: "Algorithmic method for designing digital foot orthotics using parametric inputs from 3D scanned foot models. Translates traditional plaster-cast techniques into digital process through landmark selection, foot alignment correction, and creation of orthotic surface geometries. Emphasizes control over orthotic geometry through adjustable parameters.",
@@ -110,7 +110,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         author: "Scott Telfer, James Woodburn",
         publication: "Journal of Foot and Ankle Research volume 3, Article number: 19 (2010)",
         date: "2010",
-        referencesClaims: [1, 2, 3, 9, 10, 11],
+        referencesClaims: [1],
         link: "https://jfootankleres.biomedcentral.com/articles/10.1186/1757-1146-3-19",
         summary: {
             en: "Review documenting that 3D surface scanning systems for foot measurement were commercially available by 2010, with widespread use in orthotic design and footwear development. Reviews 38 studies showing established technologies for digitally capturing foot shape and integrating with computer-aided manufacturing for custom orthotics.",
@@ -126,7 +126,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         author: "Munhoz, M. et al.",
         publication: "Res. Biomed. Eng. 32 (1), Jan-Mar 2016",
         date: "2016",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://www.scielo.br/j/reng/a/JfDqTS3TgxN3HbtDgvd4VWJ/?lang=en",
         summary: {
             en: "Complete digital workflow for custom orthotic design using smartphone photogrammetry for 3D surface reconstruction, automated CAD modeling, and 3D printing. Demonstrates automatic generation of digital models from 3D body scans and integration with automated fabrication systems achieving good accuracy.",
@@ -143,7 +143,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         publication:
             "Appl Bionics Biomech. 2017:2017:9610468. doi: 10.1155/2017/9610468. Epub 2017 Jul 30.",
         date: "2017",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://pubmed.ncbi.nlm.nih.gov/28827977/",
         summary: {
             en: "Automated orthosis design software that creates STL files from 3D scanned body models with minimal manual input. Uses automated anatomical landmark detection, preprogrammed orthotic templates, and automatic axis adjustment to generate digital AFO models. Workflow includes 3D scanning, automated CAD modeling, and direct 3D printing.",
@@ -159,7 +159,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         author: "Francesco Buonamici, Rocco Furferi, Lapo Governi, Simone Lazzeri, Kathleen S. McGreevy, Michaela Servi, Emiliano Talanti, Francesca Uccheddu, Yary Volpe",
         publication: "Computer-Aided Design & Applications, 16(1), 2019",
         date: "2019",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://www.cad-journal.net/files/vol_16/CAD_16(1)_2019_25-34.pdf",
         summary: {
             en: "Systematic five-step CAD procedure for designing custom 3D printable orthotic casts using reverse engineering from 3D scanned anatomy. Automated workflow includes mesh processing, solid loft operations with 4mm wall thickness, two-shell design with zip-tie mechanisms, and ventilation patterns. Demonstrates complete digital fabrication pipeline from 3D scanning to STL generation.",
@@ -175,7 +175,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         author: "M Fantini, F De Crescenzio, L Brognara, N Baldini",
         publication: "Advances on Mechanics, Design Engineering and Manufacturing, Springer",
         date: "2016",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://doi.org/10.1007/978-3-319-45781-9_46",
         summary: {
             en: "Complete design-manufacturing process for customized foot orthosis using digital technologies including Reverse Engineering, Generative Design, and Additive Manufacturing. Demonstrates workflow from 3D scanning of human foot anatomy to direct fabrication of customized orthosis using user-friendly semi-automatic modeling with low-cost 3D laser scanning and 3D printing devices.",
@@ -191,7 +191,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         author: "F. Hoeltzel",
         publication: "Orthopädie Technik, 2016; 67 (2): 36–38",
         date: "2016",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://360-ot.de/korsettfertigung-aktueller-stand-der-cad-technik/",
         summary: {
             en: "Describes evolution of CAD technology for corset design and construction using virtual modular systems and 3D libraries. Documents progression from 1995 C95 system with overlay regions through C2000 pre-modulated models to current 3D patient scanning integrated with library forms. Demonstrates complete CAD-CAM workflow from 3D scanning to CNC milling of PU foam models for thermoforming fabrication.",
@@ -207,7 +207,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         author: "J. Breuninger, U. Daub, R. Werder, U. Schneider",
         publication: "Orthopädie Technik, 2015; 66 (6): 22–27",
         date: "2015",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        referencesClaims: [1, 2, 3, 8],
         link: "https://360-ot.de/potenziale-additiver-fertigungsverfahren-fuer-die-orthopaedie-technik/",
         summary: {
             en: "Digital process chain for orthopedic technology using 3D printing. Documents workflow from 3D scanning through CAD construction to direct fabrication of prosthetics and orthotics. Includes selective laser sintering (SLS), fused deposition modeling (FDM), topology optimization, and finite element analysis. Demonstrates lightweight orthoses, custom prosthetic feet, and saltwater-resistant swimming prosthetics.",
@@ -223,7 +223,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         author: "J. Pröbsting, N. Günther",
         publication: "Orthopädie Technik, 2014; 65 (1): 16–19",
         date: "2014",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        referencesClaims: [1, 2, 3],
         link: "https://360-ot.de/generative-fertigungsverfahren-in-der-orthopaedie-technik/",
         summary: {
             en: "CAD-based construction with generative manufacturing using Selective Laser Sintering (SLS) for orthopedic devices. Documents complete digital workflow from patient-specific coordinate systems through digitization of fit and alignment to direct SLS fabrication. Demonstrates prosthetic sockets with flexible pressure relief areas, waterproof swimming prosthetics, orthotic shells with modular systems, and integrated joint mechanisms manufactured in single print runs.",
@@ -239,8 +239,8 @@ const counterClaims: (CounterClaim & { id: number })[] = [
         author: "Andreas Mühlenberend",
         publication:
             "Merseburger Herbstforum - „Möglichkeiten des 3D-Druckes für Unternehmen in Mitteldeutschland“ am 7. November 2018 im Ständehaus Merseburg",
-        date: "2017",
-        referencesClaims: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+        date: "2018",
+        referencesClaims: [1, 2, 3, 8, 10],
         link: "http://dx.doi.org/10.25673/13673",
         summary: {
             en: "Fully integrated digital design and manufacturing workflow for patient-specific ankle-foot orthoses (AFOs) using CAD environment Rhinoceros and Grasshopper programming plugin. Documents complete digital process chain from 3D scanning and digital manipulation to SLS fabrication with integrated closures, breathable functional zones, and manipulable effect zones. Demonstrates open structures with partial reinforcements, adaptive meshes with controllable density variations, and force-line based geometries enabling individualized stiffness control.",
@@ -248,6 +248,38 @@ const counterClaims: (CounterClaim & { id: number })[] = [
             fr: "Flux de travail de conception et fabrication numérique entièrement intégré pour orthèses cheville-pied (AFO) spécifiques au patient utilisant l'environnement CAO Rhinoceros et plugin de programmation Grasshopper. Documente chaîne de processus numérique complète de la numérisation 3D et manipulation numérique à la fabrication SLS avec fermetures intégrées, zones fonctionnelles respirantes et zones d'effet manipulables. Démontre structures ouvertes avec renforcements partiels, maillages adaptatifs avec variations de densité contrôlables et géométries basées sur lignes de force permettant contrôle de rigidité individualisé.",
             es: "Flujo de trabajo de diseño y fabricación digital completamente integrado para ortesis tobillo-pie (AFO) específicas del paciente usando entorno CAD Rhinoceros y plugin de programación Grasshopper. Documenta cadena de proceso digital completa desde escaneo 3D y manipulación digital hasta fabricación SLS con cierres integrados, zonas funcionales transpirables y zonas de efecto manipulables. Demuestra estructuras abiertas con refuerzos parciales, mallas adaptativas con variaciones de densidad controlables y geometrías basadas en líneas de fuerza permitiendo control de rigidez individualizado.",
             it: "Flusso di lavoro di progettazione e fabbricazione digitale completamente integrato per ortesi caviglia-piede (AFO) specifiche del paziente utilizzando ambiente CAD Rhinoceros e plugin di programmazione Grasshopper. Documenta catena di processo digitale completa dalla scansione 3D e manipolazione digitale alla fabbricazione SLS con chiusure integrate, zone funzionali traspiranti e zone di effetto manipolabili. Dimostra strutture aperte con rinforzi parziali, reti adattive con variazioni di densità controllabili e geometrie basate su linee di forza permettendo controllo rigidità individualizzato.",
+        },
+    },
+    {
+        id: 16,
+        title: "Locating Anatomical Landmarks for Prosthetics Design using Ensemble Neural Networks",
+        author: "Daniel Jiménez, Thomas Dam, Bill Rogers, Nicolas Walsh",
+        publication: "IEEE Engineering in Medicine and Biology Society Conference, 1997",
+        date: "1997",
+        referencesClaims: [1, 2, 3],
+        link: "https://ieeexplore.ieee.org/document/757078",
+        summary: {
+            en: "Automated anatomical landmark detection method for computer-aided prosthetic socket design using ensemble neural networks trained on 120 digitized residual limb shapes from laser scanning. Automatically locates critical anatomical landmarks (midpoint of patellar tendon, distal end of tibia, head of fibula) on 3D digitized limb shapes with accuracy equal to trained prosthetists. Supports computer-aided prosthetic socket modification workflow where digitized limb shapes are modified for biomechanically correct socket design and computer-controlled milling fabrication.",
+            de: "Automatisierte anatomische Landmarken-Erkennungsmethode für computergestütztes Prothesenschaften-Design unter Verwendung von Ensemble-Neuronalen-Netzwerken, trainiert auf 120 digitalisierten Stumpfformen aus Laserscanning. Lokalisiert automatisch kritische anatomische Landmarken (Mittelpunkt der Patellasehne, distales Ende der Tibia, Fibulaköpfchen) auf 3D-digitalisierten Stumpfformen mit Genauigkeit gleich ausgebildeten Orthopädietechnikern. Unterstützt computergestützten Prothesenschaften-Modifikations-Arbeitsablauf, bei dem digitalisierte Stumpfformen für biomechanisch korrektes Schaftendesign und computergesteuerte Fräsfertigung modifiziert werden.",
+            fr: "Méthode de détection automatisée de repères anatomiques pour conception d'emboîtures prothétiques assistée par ordinateur utilisant des réseaux de neurones d'ensemble entraînés sur 120 formes de membres résiduels numérisées par balayage laser. Localise automatiquement les repères anatomiques critiques (point médian du tendon patellaire, extrémité distale du tibia, tête du péroné) sur des formes de membres numérisées 3D avec une précision égale aux prothésistes formés. Supporte le flux de travail de modification d'emboîtures prothétiques assistée par ordinateur où les formes de membres numérisées sont modifiées pour conception biomécanique correcte et fabrication par fraisage contrôlé par ordinateur.",
+            es: "Método automatizado de detección de puntos de referencia anatómicos para diseño de encajes protésicos asistido por computadora usando redes neuronales de conjunto entrenadas en 120 formas de miembros residuales digitalizadas por escaneo láser. Localiza automáticamente puntos de referencia anatómicos críticos (punto medio del tendón patelar, extremo distal de tibia, cabeza del peroné) en formas de miembros digitalizadas 3D con precisión igual a protesistas entrenados. Soporta flujo de trabajo de modificación de encajes protésicos asistido por computadora donde formas de miembros digitalizadas son modificadas para diseño biomecánico correcto y fabricación por fresado controlado por computadora.",
+            it: "Metodo automatizzato di rilevamento di punti di riferimento anatomici per progettazione di invasature protesiche assistita da computer utilizzando reti neurali d'insieme addestrate su 120 forme di arti residui digitalizzate da scansione laser. Localizza automaticamente punti di riferimento anatomici critici (punto medio del tendine rotuleo, estremità distale della tibia, testa del perone) su forme di arti digitalizzate 3D con precisione pari a protesisti addestrati. Supporta flusso di lavoro di modifica invasature protesiche assistito da computer dove forme di arti digitalizzate vengono modificate per progettazione biomeccanica corretta e fabbricazione tramite fresatura controllata da computer.",
+        },
+    },
+    {
+        id: 17,
+        title: "Paralympics in Peking: Michael Teuber radelt mit Wunderschuh zu Silber - Orthopädietechniker entwickeln High-Tech-Orthesen mittels Laser-Sinter-Verfahren",
+        author: "Deutsche Handwerks Zeitung, Ortema GmbH, Junior&Tacke, EOS",
+        publication: "Deutsche Handwerks Zeitung, 4. Dezember 2014",
+        date: "2014",
+        referencesClaims: [1, 2, 3],
+        link: "https://www.deutsche-handwerks-zeitung.de/paralympics-in-peking-michael-teuber-radelt-mit-wunderschuh-zu-silber-152122",
+        summary: {
+            de: "Dokumentiert reale kommerzielle Umsetzung einer vollständigen digitalen Prozesskette: Exakter Gipsabdruck → 3D-Computermodell (Ingenieurbüro Junior&Tacke) → automatische Laser-Sinter-Fertigung (EOS) mit schichtweiser Laserbearbeitung aus Kunststoffblock. Millimetergenaue anatomische Anpassung für Paralympics-Orthesen durch Drei-Unternehmen-Kooperation (Ortema, Junior&Tacke, EOS) zeigt etablierte Industriepraxis der automatisierten Orthesen-Herstellung bereits 2014.",
+            en: "Documents real commercial implementation of complete digital process chain: Exact plaster cast → 3D computer model (Junior&Tacke engineering) → automated laser sintering fabrication (EOS) with layer-by-layer laser processing from plastic block. Millimeter-precise anatomical fitting for Paralympic orthoses through three-company collaboration (Ortema, Junior&Tacke, EOS) demonstrates established industry practice of automated orthotic manufacturing as early as 2014.",
+            fr: "Documente la mise en œuvre commerciale réelle d'une chaîne de processus numérique complète : Moulage en plâtre exact → Modèle informatique 3D (ingénierie Junior&Tacke) → Fabrication automatisée par frittage laser (EOS) avec traitement laser couche par couche à partir d'un bloc de plastique. Ajustement anatomique au millimètre près pour orthèses paralympiques grâce à collaboration tripartite (Ortema, Junior&Tacke, EOS) démontre pratique industrielle établie de fabrication d'orthèses automatisée dès 2014.",
+            es: "Documenta implementación comercial real de cadena de proceso digital completa: Molde de yeso exacto → Modelo computacional 3D (ingeniería Junior&Tacke) → Fabricación automatizada por sinterizado láser (EOS) con procesamiento láser capa por capa desde bloque plástico. Ajuste anatómico de precisión milimétrica para ortesis paralímpicas mediante colaboración de tres empresas (Ortema, Junior&Tacke, EOS) demuestra práctica industrial establecida de manufactura ortésica automatizada desde 2014.",
+            it: "Documenta implementazione commerciale reale di catena di processo digitale completa: Calco in gesso esatto → Modello informatico 3D (ingegneria Junior&Tacke) → Fabbricazione automatizzata tramite sinterizzazione laser (EOS) con lavorazione laser strato per strato da blocco plastico. Adattamento anatomico di precisione millimetrica per ortesi paralimpiche attraverso collaborazione tre-aziende (Ortema, Junior&Tacke, EOS) dimostra pratica industriale consolidata di manifattura ortesica automatizzata già nel 2014.",
         },
     },
 ];
