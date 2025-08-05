@@ -259,3 +259,7 @@ Automated manufacturing of orthotics is well-established:
 5. **Patent evidence** showing identical processes from 2002 onward
 
 The patent appears to claim standard practices in digital orthotic design that have been well-established in the field for over two decades.
+
+## Corrections and Updates
+
+**Update (August 2025)**: Corrected the description of counterclaim 8 (Munhoz et al., 2016). Upon review of the original paper, this study demonstrates a **manual CAD design process** using photogrammetry and Blender software, rather than automated CAD modeling as initially described. This is a **feasibility study** testing methodology on a plastic doll model, not an automated production system. While still relevant as prior art for digital workflow concepts, it represents a more limited technical implementation than originally characterized.
