@@ -282,6 +282,23 @@ const counterClaims: (CounterClaim & { id: number })[] = [
             it: "Documenta implementazione commerciale reale di catena di processo digitale completa: Calco in gesso esatto → Modello informatico 3D (ingegneria Junior&Tacke) → Fabbricazione automatizzata tramite sinterizzazione laser (EOS) con lavorazione laser strato per strato da blocco plastico. Adattamento anatomico di precisione millimetrica per ortesi paralimpiche attraverso collaborazione tre-aziende (Ortema, Junior&Tacke, EOS) dimostra pratica industriale consolidata di manifattura ortesica automatizzata già nel 2014.",
         },
     },
+    {
+        id: 18,
+        title: 'Der Schutz fährt mit: die "PrävenThese" für den Skirennsport - Entwicklung eines Knieprotektors für den alpinen Skirennlauf',
+        author: "Peter Brucker, Laura Diez, Andreas Huber, Volker Junior, Eckehard F. Moritz, Michaela Nusser, Matthias Olvermann, Hartmut Semsch, Veit Senner, Peter Spitzenpfeil, Greta Stehling, Karlheinz Waibel",
+        publication:
+            "BISp-Jahrbuch Forschungsförderung 2013/14, Bundesinstitut für Sportwissenschaft",
+        date: "2014",
+        referencesClaims: [1, 2, 3],
+        link: "https://www.bisp.de/SharedDocs/Downloads/Publikationen/Jahrbuch/Jb_201314_Artikel/Brucker_Praeventhese.pdf",
+        summary: {
+            de: "Vollständig digitaler Workflow für individuell angepasste Orthesen: Multiple 3D-Oberflächenscans der Athletenbeine → algorithmische Berechnung optimaler Anbindungsstellen → individuell angepasste Carbon-Schalen-Fertigung. Interdisziplinäres Konsortium (TU München, Deutscher Skiverband, Ortema, phoenix) entwickelte revolutionäres dreistufiges Knieprotektorsystem mit nachgewiesener Olympia-Erprobung 2014.",
+            en: "Fully digital workflow for individually fitted orthoses: Multiple 3D surface scans of athletes' legs → algorithmic calculation of optimal attachment points → individually fitted carbon shell fabrication. Interdisciplinary consortium (TU Munich, German Ski Association, Ortema, phoenix) developed revolutionary three-layer knee protector system with proven Olympic testing in 2014.",
+            fr: "Flux de travail entièrement numérique pour orthèses ajustées individuellement : Multiples scans de surface 3D des jambes d'athlètes → calcul algorithmique des points d'attache optimaux → fabrication de coques carbone ajustées individuellement. Consortium interdisciplinaire (TU Munich, Association Allemande de Ski, Ortema, phoenix) a développé système révolutionnaire de protecteur de genou à trois couches avec tests olympiques prouvés en 2014.",
+            es: "Flujo de trabajo completamente digital para ortesis ajustadas individualmente: Múltiples escaneos de superficie 3D de piernas de atletas → cálculo algorítmico de puntos de fijación óptimos → fabricación de carcasas de carbono ajustadas individualmente. Consorcio interdisciplinario (TU Munich, Asociación Alemana de Esquí, Ortema, phoenix) desarrolló sistema revolucionario de protector de rodilla de tres capas con pruebas olímpicas demostradas en 2014.",
+            it: "Flusso di lavoro completamente digitale per ortesi adattate individualmente: Scansioni multiple della superficie 3D delle gambe degli atleti → calcolo algoritmico dei punti di attacco ottimali → fabbricazione di gusci in carbonio adattati individualmente. Consorzio interdisciplinare (TU Monaco, Associazione Tedesca Sci, Ortema, phoenix) ha sviluppato sistema rivoluzionario di protezione del ginocchio a tre strati con test olimpici dimostrati nel 2014.",
+        },
+    },
 ];
 
 /** Check unique IDs for counter claims */
