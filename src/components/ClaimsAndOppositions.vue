@@ -53,7 +53,7 @@ function formatCounterClaimData(data: {
 <template>
     <div id="claim-container" class="flex flex-col md:flex-row gap-8">
         <!-- list of claims -->
-        <div class="flex-1">
+        <div class="flex-1 min-w-0 w-1/2">
             <h3 class="text-5xl font-extralight pb-12">{{ content.snippets.claims }}</h3>
 
             <div class="max-h-[95vh] overflow-y-auto">
@@ -84,7 +84,7 @@ function formatCounterClaimData(data: {
         </div>
 
         <!-- list of counterclaims -->
-        <div class="flex-1">
+        <div class="flex-1 min-w-0 w-1/2">
             <h3 class="text-5xl font-extralight pb-12">{{ content.snippets.opposes }}</h3>
             <div class="max-h-[95vh] overflow-y-auto">
                 <div id="counters" class="space-y-6 py-2 px-4 bg-gray-50 border-1 border-gray-200">
