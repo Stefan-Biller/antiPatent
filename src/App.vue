@@ -50,7 +50,7 @@ setDefaultLanguageFromBrowserSettings(navigator);
                     {{ content.buttonTexts.contactByMail }}
                 </a>
                 <br />
-                <a href="www.3dup.app/impressum"> Impressum </a>
+                <a href="http://stefan-biller.de/"> Impressum </a>
                 <br />
                 <p class="text-xs">{{ content.texts.translationNotice }}</p>
             </div>
