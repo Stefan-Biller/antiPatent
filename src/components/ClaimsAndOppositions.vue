@@ -37,6 +37,7 @@ function enforceUnabbreviated(counterClaimId: number) {
 
 function formatCounterClaimData(data: {
     date: string;
+    type: string;
     author: string;
     publication?: string;
     referencesClaims: number[];
@@ -46,7 +47,7 @@ function formatCounterClaimData(data: {
     const publicationStr = data.publication
         ? "  |  " + truncateText(data.publication, MAX_STRLENGTH.publication)
         : "";
-    return `${dateStr} | ${authorStr}${publicationStr}`;
+    return `${data.type}  |  ${dateStr}  |  ${authorStr}${publicationStr}`;
 }
 </script>
 
@@ -98,7 +99,7 @@ function formatCounterClaimData(data: {
                         @click="enforceUnabbreviated(id)"
                     >
                         <template v-slot:bibliography>
-                            <div class="text-xs pt-2">
+                            <div class="text-xs">
                                 {{ formatCounterClaimData(data) }}
                             </div>
                         </template>

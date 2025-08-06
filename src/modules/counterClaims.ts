@@ -2,6 +2,7 @@ import type { Language } from "./language";
 
 type CounterClaim = {
     title: string;
+    type: "patent" | "paper" | "article";
     author: string;
     publication?: string;
     date: string;
@@ -15,6 +16,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 1,
         title: "US6968246 - Method for automated design of orthotic and prosthetic devices",
+        type: "patent",
         author: "Keith Watson, Marvin Fourroux",
         date: "2002",
         referencesClaims: [1, 2],
@@ -30,6 +32,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 2,
         title: "WO2011031971A2 - Process and system for manufacturing a customized orthosis",
+        type: "patent",
         author: "Steven J. Stanhope, Elisa Schrank",
         date: "2010",
         referencesClaims: [1, 2, 3],
@@ -45,6 +48,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 3,
         title: "US20090306801A1 - Patient specific ankle-foot orthotic device",
+        type: "patent",
         author: "Mark L. Sivak, Richard G. Ranky, Joseph A. DiPisa, Alyssa Leigh Caddle, Kara Lyn Gilhooly, Lauren Chiara Govoni, Seth John Siva, kMichael Lancia, Paolo Bonato, Constantinos Mavroidis",
         date: "2007",
         referencesClaims: [1, 2, 3],
@@ -60,6 +64,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 4,
         title: "US20170216078A1 - 3d printed splint and cast",
+        type: "patent",
         author: "Michael Rivlin, Pedro Beredjiklian, Alexander R. Vaccaro, Michael J. Sileski, Emilia Pollnow, Mary Grace Maggiano, Cynthia Watkins",
         date: "2017",
         referencesClaims: [1, 2, 3],
@@ -75,6 +80,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 5,
         title: "WO2018170600A1 - Custom foot orthotic and system and method for designing of a custom foot orthotic",
+        type: "patent",
         author: "Steven Miller, Todd MCLEAN, Patrick Connor",
         date: "2018",
         referencesClaims: [1, 2, 3],
@@ -90,6 +96,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 6,
         title: "Parametric Design of Custom Foot Orthotic Model",
+        type: "paper",
         author: "Samuel J. Lochner, Jan P. Huissoon, Sanjeev S. Bedi; University of Waterloo",
         publication:
             "Computer Aided Design and Applications, Vol 9, 2012, DOI: 10.3722/cadaps.2012.1-11",
@@ -107,6 +114,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 7,
         title: "The use of 3D surface scanning for the measurement and assessment of the human foot",
+        type: "paper",
         author: "Scott Telfer, James Woodburn",
         publication: "Journal of Foot and Ankle Research volume 3, Article number: 19 (2010)",
         date: "2010",
@@ -123,6 +131,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 8,
         title: "A digital approach for design and fabrication by rapid prototyping of orthosis for developmental dysplasia of the hip",
+        type: "paper",
         author: "Munhoz, M. et al.",
         publication: "Res. Biomed. Eng. 32 (1), Jan-Mar 2016",
         date: "2016",
@@ -139,6 +148,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 9,
         title: "Ankle-Foot Orthosis Made by 3D Printing Technique and Automated Design Software",
+        type: "paper",
         author: "Yong Ho Cha, Keun Ho Lee, Hong Jong Ryu, Il Won Joo, Anna Seo, Dong-Hyeon Kim, Sang Jun Kim",
         publication:
             "Appl Bionics Biomech. 2017:2017:9610468. doi: 10.1155/2017/9610468. Epub 2017 Jul 30.",
@@ -156,6 +166,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 10,
         title: "A CAD-based Procedure for Designing 3D Printable Arm-Wrist-Hand Cast",
+        type: "paper",
         author: "Francesco Buonamici, Rocco Furferi, Lapo Governi, Simone Lazzeri, Kathleen S. McGreevy, Michaela Servi, Emiliano Talanti, Francesca Uccheddu, Yary Volpe",
         publication: "Computer-Aided Design & Applications, 16(1), 2019",
         date: "2019",
@@ -172,6 +183,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 11,
         title: "Design and Rapid Manufacturing of a customized foot orthosis: A first methodological study.",
+        type: "paper",
         author: "M Fantini, F De Crescenzio, L Brognara, N Baldini",
         publication: "Advances on Mechanics, Design Engineering and Manufacturing, Springer",
         date: "2016",
@@ -188,6 +200,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 12,
         title: "Korsettfertigung - aktueller Stand der CAD-Technik",
+        type: "article",
         author: "F. Hoeltzel",
         publication: "Orthopädie Technik, 2016; 67 (2): 36–38",
         date: "2016",
@@ -204,6 +217,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 13,
         title: "Potenziale additiver Fertigungsverfahren für die Orthopädie-Technik",
+        type: "article",
         author: "J. Breuninger, U. Daub, R. Werder, U. Schneider",
         publication: "Orthopädie Technik, 2015; 66 (6): 22–27",
         date: "2015",
@@ -220,6 +234,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 14,
         title: "Generative Fertigungsverfahren in der Orthopädie-Technik",
+        type: "article",
         author: "J. Pröbsting, N. Günther",
         publication: "Orthopädie Technik, 2014; 65 (1): 16–19",
         date: "2014",
@@ -236,6 +251,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 15,
         title: "Digitale Orthetik – Design- und Machbarkeitsstudie zur Potentialanalyse",
+        type: "article",
         author: "Andreas Mühlenberend",
         publication:
             "Merseburger Herbstforum - „Möglichkeiten des 3D-Druckes für Unternehmen in Mitteldeutschland“ am 7. November 2018 im Ständehaus Merseburg",
@@ -253,6 +269,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 16,
         title: "Locating Anatomical Landmarks for Prosthetics Design using Ensemble Neural Networks",
+        type: "paper",
         author: "Daniel Jiménez, Thomas Dam, Bill Rogers, Nicolas Walsh",
         publication: "IEEE Engineering in Medicine and Biology Society Conference, 1997",
         date: "1997",
@@ -269,6 +286,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 17,
         title: "Paralympics in Peking: Michael Teuber radelt mit Wunderschuh zu Silber - Orthopädietechniker entwickeln High-Tech-Orthesen mittels Laser-Sinter-Verfahren",
+        type: "article",
         author: "Deutsche Handwerks Zeitung, Ortema GmbH, Junior&Tacke, EOS",
         publication: "Deutsche Handwerks Zeitung, 4. Dezember 2014",
         date: "2014",
@@ -285,6 +303,7 @@ const counterClaims: (CounterClaim & { id: number })[] = [
     {
         id: 18,
         title: 'Der Schutz fährt mit: die "PrävenThese" für den Skirennsport - Entwicklung eines Knieprotektors für den alpinen Skirennlauf',
+        type: "paper",
         author: "Peter Brucker, Laura Diez, Andreas Huber, Volker Junior, Eckehard F. Moritz, Michaela Nusser, Matthias Olvermann, Hartmut Semsch, Veit Senner, Peter Spitzenpfeil, Greta Stehling, Karlheinz Waibel",
         publication:
             "BISp-Jahrbuch Forschungsförderung 2013/14, Bundesinstitut für Sportwissenschaft",
