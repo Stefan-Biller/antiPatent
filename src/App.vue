@@ -36,6 +36,14 @@ setDefaultLanguageFromBrowserSettings(navigator);
             </div>
         </div>
 
+        <!-- short summary of patent -->
+        <div class="max-w-3xl pb-6">
+            <div class="text-m pb-6 space-y-4 bg-gray-50 whitespace-pre-line p-4">
+                <p class="italic">{{ content.texts.patentSummaryIntro }}</p>
+                <p>{{ content.texts.patentSummary }}</p>
+            </div>
+        </div>
+
         <!-- add sources to opposition -->
         <div class="pb-16">
             <p>{{ content.texts.intro3 }}</p>
