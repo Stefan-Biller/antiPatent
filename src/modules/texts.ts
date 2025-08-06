@@ -63,24 +63,24 @@ export const texts = {
         patentSummary: {
             de: `Automatisierte Erstellung von Fertigungsdaten (1) eines Hilfsmittels, Orthesen, Prothesen, Exoskelette (9), bzw. 3D-Volumenmodells mit Randkurven (2) und funktionalen Bereichen (3).
 Bereiche können manuell (4) oder automatisch per Markierungen definiert werden (5).
-Erstellung basiert auf einem Grundmodell (6), optional automatisch ausgewählt nach 3D-Modell (7) oder Indikation (8).
+Erstellung basiert optional auf einem Grundmodell (6), auch automatisch ausgewählt nach 3D-Modell (7) oder Indikation (8).
 Umfasst das Erstellen einer Zweckform aus Körperscan (10), dem Computerprogramm zur Durchführung (11), Fertigungsanlagen-Integration (12) und den kompletten Prozess inklusive automatisierter Fertigung (13).`,
-            en: `Automated creation of manufacturing data (1) for assistive devices, orthoses, prostheses, exoskeletons (9), or 3D volume models with boundary curves (2) and functional areas (3).
+            en: `Automated creation of manufacturing data (1) for assistive devices, orthoses, prostheses, exoskeletons (9), or 3D volume model with boundary curves (2) and functional areas (3).
 Areas can be defined manually (4) or automatically via markings (5).
-Creation is based on a basic model (6), optionally automatically selected according to 3D model (7) or indication (8).
+Creation optionally based on a basic model (6), also automatically selected according to 3D model (7) or indication (8).
 Includes creating a functional form from body scan (10), computer program for implementation (11), manufacturing facility integration (12), and complete process including automated manufacturing (13).`,
-            fr: `Création automatisée de données de fabrication (1) pour dispositifs d'assistance, orthèses, prothèses, exosquelettes (9), ou modèles de volume 3D avec courbes de contour (2) et zones fonctionnelles (3).
-Les zones peuvent être définies manuellement (4) ou automatiquement via des marquages (5).
-La création est basée sur un modèle de base (6), optionnellement sélectionné automatiquement selon le modèle 3D (7) ou l'indication (8).
-Comprend la création d'une forme fonctionnelle à partir d'un scan corporel (10), le programme informatique pour l'implémentation (11), l'intégration d'installations de fabrication (12), et le processus complet incluant la fabrication automatisée (13).`,
-            it: `Creazione automatizzata di dati di produzione (1) per dispositivi di assistenza, ortesi, protesi, esoscheletri (9), o modelli di volume 3D con curve di contorno (2) e aree funzionali (3).
+            fr: `Création automatisée de données de fabrication (1) pour dispositifs d'assistance, orthèses, prothèses, exosquelettes (9), ou modèle de volume 3D avec courbes de contour (2) et zones fonctionnelles (3).
+Les zones peuvent être définies manuellement (4) ou automatiquement via marquages (5).
+Création optionnellement basée sur un modèle de base (6), aussi automatiquement sélectionné selon modèle 3D (7) ou indication (8).
+Comprend la création d'une forme fonctionnelle à partir de scan corporel (10), programme informatique pour implémentation (11), intégration d'installations de fabrication (12), et processus complet incluant fabrication automatisée (13).`,
+            it: `Creazione automatizzata di dati di produzione (1) per dispositivi di assistenza, ortesi, protesi, esoscheletri (9), o modello di volume 3D con curve di contorno (2) e aree funzionali (3).
 Le aree possono essere definite manualmente (4) o automaticamente tramite marcatori (5).
-La creazione si basa su un modello di base (6), opzionalmente selezionato automaticamente secondo il modello 3D (7) o l'indicazione (8).
-Include la creazione di una forma funzionale da scansione corporea (10), programma per computer per l'implementazione (11), integrazione di impianti di produzione (12), e processo completo inclusa la produzione automatizzata (13).`,
-            es: `Creación automatizada de datos de fabricación (1) para dispositivos de asistencia, órtesis, prótesis, exoesqueletos (9), o modelos de volumen 3D con curvas de contorno (2) y áreas funcionales (3).
+Creazione opzionalmente basata su modello di base (6), anche automaticamente selezionato secondo modello 3D (7) o indicazione (8).
+Include la creazione di forma funzionale da scansione corporea (10), programma per computer per implementazione (11), integrazione impianti di produzione (12), e processo completo inclusa produzione automatizzata (13).`,
+            es: `Creación automatizada de datos de fabricación (1) para dispositivos de asistencia, órtesis, prótesis, exoesqueletos (9), o modelo de volumen 3D con curvas de contorno (2) y áreas funcionales (3).
 Las áreas pueden definirse manualmente (4) o automáticamente mediante marcadores (5).
-La creación se basa en un modelo básico (6), opcionalmente seleccionado automáticamente según modelo 3D (7) o indicación (8).
-Incluye crear una forma funcional a partir de escáner corporal (10), programa de computadora para implementación (11), integración de instalaciones de fabricación (12), y proceso completo incluyendo fabricación automatizada (13).`,
+Creación opcionalmente basada en modelo básico (6), también seleccionado automáticamente según modelo 3D (7) o indicación (8).
+Incluye crear forma funcional a partir de escáner corporal (10), programa de computadora para implementación (11), integración instalaciones de fabricación (12), y proceso completo incluyendo fabricación automatizada (13).`,
         },
         summaryTitle: {
             de: "Zusammenfassung der Patentansprüche:",
